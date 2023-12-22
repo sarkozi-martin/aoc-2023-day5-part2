@@ -121,7 +121,7 @@ fun day5Part2(data: String) {
              *   A(sourceRange->sourceRange + rangeLength)  ---------******----------- 2 division points(As,As+l)
              *   B(sourceRange->sourceRange + rangeLength)  ----*******************--- 0 division points
              *   C(sourceRange->sourceRange + rangeLength)  ----*********------------- 1 division point(Cs+l)
-             *   D(sourceRange->sourceRange + rangeLength)  ---------------*******---- 1 division point(Ie
+             *   D(sourceRange->sourceRange + rangeLength)  ---------------*******---- 1 division point(Ds)
              */
             for(a in byMap) {
                 if(a.sourceRange < start && a.sourceRange + a.rangeLength > start) { // B or C
